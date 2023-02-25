@@ -1,7 +1,7 @@
 # 30 Days JavaScript Challenge
 
 
-### Welcome to mt 30 Days JavaScript Challenge! This is a challenge designed to help me learn and improve my JavaScript skills in just 30 days. Each day I will learn a new JavaScript concept and complete a series of challenges to reinforce what I've learned.
+### Welcome to my 30 Days JavaScript Challenge! This is a challenge designed to help me learn and improve my JavaScript skills in just 30 days. Each day I will learn a new JavaScript concept and complete a series of challenges to reinforce what I've learned.
 
 ![30 Days of Javascript](https://media.licdn.com/dms/image/C4D22AQGDWQALxNnJuw/feedshare-shrink_800/0/1677064902915?e=1680134400&v=beta&t=50y-IHG4J6z46CLf58BSRQifajCVMewMyVi059_b0JI)
 
