@@ -9,8 +9,7 @@ const status = "active";
 const age = 3;
 const meQ = true;
 
-let emptyValue = null
-let firstName;
+const emptyValue = null
 
 console.log(typeof status);
 console.log(typeof age);

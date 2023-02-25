@@ -34,10 +34,10 @@ Question 6: Declare four variables without assigning values
 
 // Answer
 
-let w;
-let x;
-let y;
-let z;
+const w = null; 
+const x = null;
+const y = null;
+const z = null;
 
 
 /*
@@ -46,7 +46,7 @@ Question 7: Declare four variables with assigned values
 
 //Answer
 
-let name = "Khaalid";
+const name = "Khaalid";
 const age = 25;
 const jLove = false;
 const pi = 3.142;
