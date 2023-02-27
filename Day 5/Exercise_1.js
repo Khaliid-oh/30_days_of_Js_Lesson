@@ -3,14 +3,14 @@
 */
 
 // Answer
-let array = [];
+const array = [];
 
 /*
     Question 2: Declare an array with more than 5 number of elements
 */
 
 // Answer
-let num = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const num = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 /*
     Question 3: Find the length of your array
@@ -24,9 +24,9 @@ console.log(num.length);
 */
 
 // Answer
-const  firstItem = nu[0];
+const  firstItem = num[0];
 const middleItem = num[3];
-let lastItem = num.length - 1;
+const lastItem = num.length - 1;
 lastItem = num[lastItem];
 console.log([firstItem, middleItem, lastItem]);
 
@@ -36,7 +36,7 @@ console.log([firstItem, middleItem, lastItem]);
 */
 
 // Answer
-let mixedDataTypes = ['String', 10 , true, 'number', false];
+const mixedDataTypes = ['String', 10 , true, 'number', false];
 console.log(mixedDataTypes.length);
 
 
@@ -46,7 +46,7 @@ console.log(mixedDataTypes.length);
 */
 
 // Answer
-let itCompanies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon'];
+const itCompanies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon'];
 
 /*
     Question 7: Print the array using _console.log()_
@@ -68,7 +68,7 @@ console.log(itCompanies.length);
 // Answer
 const  firstCom = itCompanies[0];
 const middleCom = itCompanies[3];
-let lastCom = itCompanies.length - 1;
+const lastCom = itCompanies.length - 1;
 lastCom = itCompanies[lastCom];
 console.log([firstCom, middleCom, lastCom]);
 
@@ -128,9 +128,9 @@ if(itCompaniess.includes(checkComm)){
 
 // Answer
 
-var isPresent;
-var records = [];
-var matchWords = ['o'];
+const isPresent;
+const records = [];
+const matchWords = ['o'];
 for (var index = 0; index < itCompanies.length; index++){
    isPresent = true;
    for (var outer = 0; outer< matchWords.length; outer++) {
