@@ -112,23 +112,20 @@ console.log(itCompanies.join(', ') + ' are big IT companies');
 */
 
 // Answer
-const checkCom = prompt('Enter the company name');
-const checkComm = checkCom.toLowerCase();
-const checkCo = checkCom.charAt(0).toUpperCase() + checkCom.slice(1).toLowerCase();
-const itCompaniess = itCompanies.map(name => name.toLowerCase());
-if(itCompaniess.includes(checkComm)){
-    console.log(checkCo);
-}else{
-    console.log('company is not found')
+const checkCom = prompt('Enter company name')
+const index = itCompanies.indexOf(checkCom)
+if (index === -1) {
+    console.log('Company not found')
+} else {
+    console.log(checkCom)
 }
-
 /*
     Question 14: Filter out companies which have more than one 'o' without the filter method
 */
 
 // Answer
 
-const isPresent;
+let isPresent;
 const records = [];
 const matchWords = ['o'];
 for (var index = 0; index < itCompanies.length; index++){
