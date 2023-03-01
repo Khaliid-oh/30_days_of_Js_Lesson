@@ -27,7 +27,7 @@ console.log(num.length);
 const  firstItem = num[0];
 const middleItem = num[3];
 const lastItem = num.length - 1;
-lastItem = num[lastItem];
+
 console.log([firstItem, middleItem, lastItem]);
 
 /*
@@ -36,7 +36,7 @@ console.log([firstItem, middleItem, lastItem]);
 */
 
 // Answer
-const mixedDataTypes = ['String', 10 , true, 'number', false];
+const mixedDataTypes = ['String', 10 , true, 'number', false, 10];
 console.log(mixedDataTypes.length);
 
 
@@ -69,7 +69,7 @@ console.log(itCompanies.length);
 const  firstCom = itCompanies[0];
 const middleCom = itCompanies[3];
 const lastCom = itCompanies.length - 1;
-lastCom = itCompanies[lastCom];
+
 console.log([firstCom, middleCom, lastCom]);
 
 /*
@@ -108,18 +108,26 @@ console.log(itCompanies.join(', ') + ' are big IT companies');
 
 /*
     Question 13: Check if a certain company exists in the itCompanies array. If it exist 
-    return the company else return a company is _not found_
+    return the company else return a company is not found
 */
 
 // Answer
-const checkCom = prompt('Enter the company name');
-const checkComm = checkCom.toLowerCase();
+/*const checkCom = prompt('Enter the company name');
+const checkCom2 = checkCom.toLowerCase();
 const checkCo = checkCom.charAt(0).toUpperCase() + checkCom.slice(1).toLowerCase();
 const itCompaniess = itCompanies.map(name => name.toLowerCase());
-if(itCompaniess.includes(checkComm)){
+if(itCompaniess.includes(checkCom2)){
     console.log(checkCo);
 }else{
     console.log('company is not found')
+}*/
+
+const checkCom = prompt('Enter company name')
+const index = itCompanies.indexOf(checkCom)
+if (index === -1) {
+    console.log('Company not found')
+} else {
+    console.log(checkCom)
 }
 
 /*
@@ -128,22 +136,26 @@ if(itCompaniess.includes(checkComm)){
 
 // Answer
 
-const isPresent;
-const records = [];
-const matchWords = ['o'];
-for (var index = 0; index < itCompanies.length; index++){
-   isPresent = true;
-   for (var outer = 0; outer< matchWords.length; outer++) {
-      if (itCompanies[index].indexOf(matchWords[outer]) === -1) {
-         isPresent = false;
-         break;
-      }
-   }
-   if (isPresent){
-      records.push(itCompanies[index]);
-   }
+const companies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon'];
+const filteredCompanies = [];
+
+for (let i = 0; i < companies.length; i++) {
+  let count = 0;
+  for (let j = 0; j < companies[i].length; j++) {
+    if (companies[i][j] === 'o') {
+      count++;
+    }
+  }
+  if (count <= 1) {
+    filteredCompanies.push(companies[i]);
+  }
 }
-console.log(records);
+
+console.log(filteredCompanies);
+
+/*const companies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon'];
+const filteredCom = companies.filter(str => str.match(/o/))
+console.log(filteredCom)*/
 
 /*
     Question 15: Sort the array using _sort()_ method
