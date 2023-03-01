@@ -112,6 +112,7 @@ console.log(itCompanies.join(', ') + ' are big IT companies');
 */
 
 // Answer
+<<<<<<< HEAD
 /*const checkCom = prompt('Enter the company name');
 const checkCom2 = checkCom.toLowerCase();
 const checkCo = checkCom.charAt(0).toUpperCase() + checkCom.slice(1).toLowerCase();
@@ -122,6 +123,8 @@ if(itCompaniess.includes(checkCom2)){
     console.log('company is not found')
 }*/
 
+=======
+>>>>>>> 7a33df3d8634ec4aacf41569671d9cb230c6bbbe
 const checkCom = prompt('Enter company name')
 const index = itCompanies.indexOf(checkCom)
 if (index === -1) {
@@ -129,13 +132,13 @@ if (index === -1) {
 } else {
     console.log(checkCom)
 }
-
 /*
     Question 14: Filter out companies which have more than one 'o' without the filter method
 */
 
 // Answer
 
+<<<<<<< HEAD
 const companies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon'];
 const filteredCompanies = [];
 
@@ -149,6 +152,22 @@ for (let i = 0; i < companies.length; i++) {
   if (count <= 1) {
     filteredCompanies.push(companies[i]);
   }
+=======
+let isPresent;
+const records = [];
+const matchWords = ['o'];
+for (var index = 0; index < itCompanies.length; index++){
+   isPresent = true;
+   for (var outer = 0; outer< matchWords.length; outer++) {
+      if (itCompanies[index].indexOf(matchWords[outer]) === -1) {
+         isPresent = false;
+         break;
+      }
+   }
+   if (isPresent){
+      records.push(itCompanies[index]);
+   }
+>>>>>>> 7a33df3d8634ec4aacf41569671d9cb230c6bbbe
 }
 
 console.log(filteredCompanies);
