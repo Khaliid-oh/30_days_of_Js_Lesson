@@ -102,11 +102,16 @@ for (i = 0; i <= 10; i++) {
 
 //Answer:
 
-for(let i = 0; i <= 100; i++){
+/*for(let i = 0; i <= 100; i++){
     if(i % 2 == 0 && i > 1){
         console.log(i);
     }
+    }*/
+    
+    for (let i = 0; i <= 100; i+=2) {
+        console.log(i);
     }
+    
 
 //Question 8: Use for loop to iterate from 0 to 100 and print only odd numbers
 
