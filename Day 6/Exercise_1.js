@@ -77,8 +77,8 @@ for (i = 0; i <= n; i++) {
 
 //Answer:
 let numSign = ''
-for (let m = "#"; m<8; m++) {
-console.log(numSign +=m)
+for (let m = 0; m<8; m++) {
+console.log(numSign += 'm')
 }
 
 
