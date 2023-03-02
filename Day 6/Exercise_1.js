@@ -63,7 +63,11 @@ while (i >= 0) {
     console.log(i)
     i--
 }
-
+ let k = 10;
+do {
+  console.log(k)
+  k--
+} while (k >=0)
 
 
 
