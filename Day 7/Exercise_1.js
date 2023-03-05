@@ -1,5 +1,3 @@
-
-
 // Question 1: Declare a function fullName and it print out your full name.
 
 // Answer:
@@ -34,7 +32,7 @@ function addNumber (number1, number2){
     console.log(sum);
     return sum;
 }
-addNumber(4, 5);
+addNumber(10, 10);
 
 /*
     Question 4: An area of a rectangle is calculated as follows: area = length x width 
@@ -48,7 +46,7 @@ function areaOfRectangle (length, width){
     console.log(area);
     return area;
 }
- areaOfRectangle(5, 5);
+ areaOfRectangle(10, 10);
 
  /*
     Question 5: A perimeter of a rectangle is calculated as follows: perimeter= 2x(length + width).
@@ -63,7 +61,7 @@ function perimeter (length, width){
     return perimeter;
 }
 
-perimeter(5, 3);
+perimeter(10, 10);
 
 /*
     Question 6: A volume of a rectangular prism is calculated as follows: volume = length x width x height. 
@@ -78,7 +76,7 @@ let volume = (length, width, height) => {
     return volume;
 }
 
-volume(2, 3, 4);
+volume(5, 10, 10);
 
 /*
     Question 7: Area of a circle is calculated as follows: area = π x r x r Write a function which calculates
@@ -89,12 +87,12 @@ volume(2, 3, 4);
 
 let areaOfCircle = (radius) => {
     const π = 3.14;
-    areaOfCircle = π * radius * radius;     // calculating the area of a cirlce
+    areaOfCircle = π * radius * radius;
     console.log(areaOfCircle);
     return areaOfCircle;
 }
 
-areaOfCircle(5);
+areaOfCircle(10);
 
 
 /*
@@ -110,7 +108,7 @@ areaOfCircle(5);
     console.log(circumOfCircle);
     return circumOfCircle;
  }
- circumOfCircle(5);
+ circumOfCircle(10);
 
  /*
     Question 9: Density of a substance is calculated as follows: density= mass/volume. Write a function which 
