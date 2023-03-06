@@ -1,4 +1,4 @@
-# 30 dyas Javacript
+# 30 days Javacript
 
 
 What was learned on February 22, 2023:
