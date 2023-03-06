@@ -1,6 +1,6 @@
 
 /*
-Question 1: Write a single line comment which says, _comments can make code readable_
+Question 1: Write a single line comment which says, comments can make code readable
 */
 
     // Answer 
@@ -8,7 +8,7 @@ Question 1: Write a single line comment which says, _comments can make code read
 // comments can make code readable
 
 /*
-Question 2: Write another single comment which says, _Welcome to 30DaysOfJavaScript_
+Question 2: Write another single comment which says, Welcome to 30DaysOfJavaScript
 */
 
     // Answer
@@ -75,7 +75,7 @@ const firstName1 = "Khaalid", lastName1 = "Sulyman", age2 = 26 , country = "Nige
 
 
 /*
-Question 10: Declare two variables _myAge_ and _yourAge_ and assign them initial values and log to the browser 
+Question 10: Declare two variables myAge and yourAge and assign them initial values and log to the browser 
 console.
 */
 
