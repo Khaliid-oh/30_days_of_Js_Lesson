@@ -46,7 +46,7 @@ function areaOfRectangle (length, width){
     console.log(area);
     return area;
 }
- areaOfRectangle(10, 10);
+ areaOfRectangle(100, 100);
 
  /*
     Question 5: A perimeter of a rectangle is calculated as follows: perimeter= 2x(length + width).
