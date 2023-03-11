@@ -29,7 +29,6 @@ function fullName(firstName, lastName){
 
 function addNumber (number1, number2){
     const sum = number1 + number2;     
-    console.log(sum);
     return sum;
 }
 addNumber(10, 10);
@@ -43,10 +42,9 @@ addNumber(10, 10);
 
 function areaOfRectangle (length, width){
     const area =  length * width;  
-    console.log(area);
     return area;
 }
- areaOfRectangle(100, 100);
+ areaOfRectangle(12, 6);
 
  /*
     Question 5: A perimeter of a rectangle is calculated as follows: perimeter= 2x(length + width).
@@ -61,7 +59,7 @@ function perimeter (length, width){
     return perimeter;
 }
 
-perimeter(10, 10);
+perimeter(12, 6);
 
 /*
     Question 6: A volume of a rectangular prism is calculated as follows: volume = length x width x height. 
@@ -70,13 +68,12 @@ perimeter(10, 10);
 
 // Answer:
 
-let volume = (length, width, height) => {
-    volume = length * width * height;       
-    console.log(volume);
+    function volumeOfRectprism (length, width, height) {
+    const volume = length * width * height;
     return volume;
 }
 
-volume(5, 10, 10);
+volumeOfRectprism(5, 10, 10);
 
 /*
     Question 7: Area of a circle is calculated as follows: area = π x r x r Write a function which calculates
@@ -85,11 +82,10 @@ volume(5, 10, 10);
 
 // Answer:
 
-let areaOfCircle = (radius) => {
+const areaOfCircle = (radius) => {
     const π = 3.14;
-    areaOfCircle = π * radius * radius;
-    console.log(areaOfCircle);
-    return areaOfCircle;
+    const areaOfCirclee = π * radius * radius;
+    return areaOfCirclee;
 }
 
 areaOfCircle(10);
@@ -102,11 +98,10 @@ areaOfCircle(10);
 
 // Answer:
 
- let circumOfCircle = (radius) => {
+ const circumOfCircle = (radius) => {
     const π = 3.14;
-    circumOfCircle = 2 * π * radius; 
-    console.log(circumOfCircle);
-    return circumOfCircle;
+    const circumOfCirclee = 2 * π * radius; 
+    return circumOfCirclee;
  }
  circumOfCircle(10);
 
@@ -118,10 +113,9 @@ areaOfCircle(10);
 
 // Answer:
 
-let density = (mass, volum) => {
-    density = mass / volum;   
-    console.log(density);
-    return density;
+const density = (mass, volum) => {
+    const density1 = mass / volum;   
+    return density1;
 }
 
 density(8, 4);
@@ -134,10 +128,9 @@ density(8, 4);
 
 // Answer:
 
-let speed = (distance, time) => {
-    speed = distance / time;        
-    console.log(speed);
-    return speed;
+const speed = (distance, time) => {
+    const speedy = distance / time;        
+    return speedy;
 }
 
 speed(400, 20);
@@ -151,11 +144,10 @@ speed(400, 20);
 
 // Answer:
 
-let weight = (mass) => {
+const weight = (mass) => {
     const gravity = 9.81;
-    weight = mass * gravity;       
-    console.log(weight);
-    return weight;
+    const weighto= mass * gravity;      
+    return weighto;
 }
 weight(800);
 
