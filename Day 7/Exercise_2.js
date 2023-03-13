@@ -109,7 +109,6 @@ const reverseArray = (array) => {
   for( let i = array.length - 1; i >= 0; i--){ 
       newArray.push(array[i]) 
   }
-  console.log(newArray);
   return newArray;
 }
 reverseArray([1, 2, 3, 4, 5]);
@@ -152,7 +151,6 @@ addItem('Eba');
 const removeItem = (item) => {
   const names = ['Habib', 'Hameez', 'Hafeez', 'Hakeem'];
   names.filter((name) => name !== item) 
-  console.log(names);
   return names;
 }
 removeItem('Habib');
@@ -169,7 +167,6 @@ const sumOfNumbers = (number) => {
   for(let i = 0; i <= number; i++){
       sum += i;  
   }
-  console.log(sum);
   return sum;
 }
 
@@ -248,7 +245,6 @@ const sum = (...args) => {
   for(const element of args){
       sumA += element;
   }
-  console.log(sumA);
   return sumA;
 }
 sum(1, 2, 3);
