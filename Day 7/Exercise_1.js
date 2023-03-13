@@ -2,7 +2,7 @@
 
 // Answer:
 function fullName(){
-    console.log('Khalid Sulyman');
+    console.log('Khalid K. Sulyman');
 }
 
 fullName();
