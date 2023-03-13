@@ -8,7 +8,6 @@
 
 const solveLinEquation = (a, b, c, x, y) => { 
     const linearEquation =  (a*x) + (b*y) + c; 
-    console.log(linearEquation);
     return linearEquation;
 }
 solveLinEquation(4, 4, 5, 3, 3);
@@ -124,7 +123,6 @@ reverseArray(['A', 'B', 'C']);
 // Answer 
 const capitalizedArray = (array) => {
   const capitalizedArr = array.map((name) => name[0].toUpperCase().concat(name.substring(1))); // convert the first index of each element in the array to upper case and concat the remaining strings
-  console.log(capitalizedArr);
   return capitalizedArr;
 }
 
@@ -140,7 +138,6 @@ capitalizedArray(['me', 'you', 'us', 'them']);
 const addItem = (item) => {
   const food = [];
   food.push(item);    // pushing the item into the empty array named 'food'
-  console.log(food);
   return food;
 }
 addItem('Eba');
