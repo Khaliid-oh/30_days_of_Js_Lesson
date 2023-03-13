@@ -52,7 +52,7 @@ solveQuadratic(1, -1, 0);
 */
 
 // Answer:
-const printArray = () => {
+const printArray = (array) => {
   const array = [3, 4, 5, 6, 7];
   for(let i = 0; i < array.length; i++){  
   console.log(array[i]);
