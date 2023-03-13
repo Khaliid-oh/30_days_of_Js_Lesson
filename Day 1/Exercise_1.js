@@ -3,7 +3,7 @@
 Question 1: Write a single line comment which says, comments can make code readable
 */
 
-    // Answer 
+    // Answer:
 
 // comments can make code readable
 
@@ -11,7 +11,7 @@ Question 1: Write a single line comment which says, comments can make code reada
 Question 2: Write another single comment which says, Welcome to 30DaysOfJavaScript
 */
 
-    // Answer
+    // Answer:
 
 // Welcome to 30DaysOfJavaScript
 
@@ -21,7 +21,7 @@ Question 3: Write a multiline comment which says, comments can make code readabl
 and informative
 */
 
-    //Answer
+    //Answer:
 
 /* comments can make code readable, easy to reuse
    and informative
@@ -32,7 +32,7 @@ and informative
 Question 6: Declare four variables without assigning values
 */
 
-// Answer
+// Answer:
 
 const w = null; 
 const x = null;
@@ -44,7 +44,7 @@ const z = null;
 Question 7: Declare four variables with assigned values
 */
 
-//Answer
+//Answer:
 
 const name = "Khaalid";
 const age = 25;
@@ -56,7 +56,7 @@ const pi = 3.142;
 Question 8: Declare variables to store your first name, last name, marital status, country and age in multiple lines
 */
 
-//Answer
+//Answer:
 
 const firstName = "Khaalid";
 const lastName = "Sulyman";
